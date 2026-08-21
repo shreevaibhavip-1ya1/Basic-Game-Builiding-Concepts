@@ -14,6 +14,8 @@ pygame.draw.circle(window, GREEN, (300, 300), 50)
 # Outline circle
 pygame.draw.circle(window, GREEN, (300, 300), 50, 3)
 
+pygame.display.update()
+
 # Game loop
 running = True
 
