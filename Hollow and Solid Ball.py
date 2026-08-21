@@ -12,7 +12,7 @@ GREEN = (0, 255 , 0)
 pygame.draw.circle(window, GREEN, (300, 300), 50)
 
 # Outline circle
-pygame.draw.circle(window, GREEN, (300, 300), 50, 3)
+pygame.draw.circle(window, GREEN, (100, 100), 50, 3)
 
 pygame.display.update()
 
